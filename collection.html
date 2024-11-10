@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav class="navbar">
+        <h2>Nostra</h2>
+        <div class="navbar-links">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="collection.html">Collections</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="nav-menu" onclick="show()">
+            <i class="fa-solid fa-bars" ></i>
+        </div>
+    </nav>
+    <div class="side-nav">
+        <p style="text-align: right;"  onclick="closenav()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-nav-link"><a href="index.html">Home</a></p>
+            <p class="side-nav-link"><a href="collection.html">Collections</a></p>
+            <p class="side-nav-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+    </div>
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form> 
+        <div class="products" id="product">
+        <div class="product-box">
+            <img src="assets/product9.jpg" alt="">
+            <p>White Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="assets/product10.jpg" alt="">
+            <p>Blue Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="assets/product11.jpg" alt="">
+            <p>Black Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="assets/product12.jpg" alt="">
+            <p>Red Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="assets/product13.jpg" alt="">
+            <p>green Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="assets/product14.jpg" alt="">
+            <p>Darkblue Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="assets/product15.jpg" alt="">
+            <p>Strips Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="assets/product16.jpg" alt="">
+            <p>Checked Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="assets/product17.jpg" alt="">
+            <p>Printed Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="assets/product18.jpg" alt="">
+            <p>Coat Shirt</p>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="contact">
+        <h3>Nostra</h3>
+        <P>The Standard  chunck of lorem ipsum used since the 1500s is reprodused below for those interest</P>
+        <div>
+            <a href="https://www.instagram.com/al_nafeel02"> <i class="fa-brands fa-instagram"></i></a>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="collections.js"></script>
+</body>
+</html>
